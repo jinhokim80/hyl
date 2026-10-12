@@ -26,7 +26,10 @@ SKILL_DIR below IS the base directory announced when this skill loaded.
 - OUTPUT_ROOT resolution, in order:
   1. a location the user names in this request (per-run override);
   2. the `HYL_OUTPUT_ROOT` environment variable (check: Bash `printenv HYL_OUTPUT_ROOT`);
-  3. neither set → ASK the user where hyl should keep its outputs (offer `<home>/hyl`
+  3. running in a cloud/remote session (no local desktop; check `printenv CLAUDE_CODE_REMOTE`
+     or that the working directory is a git checkout under /home/user) → use
+     `<repo-root>/output` WITHOUT asking;
+  4. neither set → ASK the user where hyl should keep its outputs (offer `<home>/hyl`
      and the current directory as suggestions, plus custom), use the answer for THIS
      run, and OFFER to persist it as `HYL_OUTPUT_ROOT` — Windows: PowerShell
      `[Environment]::SetEnvironmentVariable('HYL_OUTPUT_ROOT','<path>','User')`
@@ -178,8 +181,13 @@ the amber banner; the final render clears it.)
 Artifact check (never trust summaries): read `validation.json` (mechanical) AND
 `verify.md` (semantic), the first ~60 lines of `log.md`, and the first ~80
 lines of the HTML (find it by listing `RUN_DIR\*.html`; confirm no
-`hyl-degraded` banner on a run you are presenting as clean). Then open it for the user — PowerShell:
-`Get-ChildItem '<RUN_DIR>\*.html' | Invoke-Item` — and summarize:
+`hyl-degraded` banner on a run you are presenting as clean). Then present it to the user:
+- local Windows desktop: PowerShell `Get-ChildItem '<RUN_DIR>\*.html' | Invoke-Item`;
+- cloud/remote session: publish the HTML with the Artifact tool (`file_path` = the
+  HTML, `icon: "timeline"`, one-sentence `description`) and give the user the
+  returned link, noting it is private until shared; also commit and push
+  `OUTPUT_ROOT` to the session branch if the stop hook asks.
+Then summarize:
 title, duration, windows, log-line count, repairs performed, outstanding
 warnings/findings, artifact paths.
 
