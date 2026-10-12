@@ -1,0 +1,288 @@
+{
+ "windows": {
+  "01": {
+   "spans": [
+    {
+     "start_hms": "00:00:00",
+     "end_hms": "00:02:54",
+     "why": "S1:video-start,S3:interjection(5),S3:number(5)"
+    },
+    {
+     "start_hms": "00:02:56",
+     "end_hms": "00:03:26",
+     "why": "S3:interjection(1),S3:number(1)"
+    },
+    {
+     "start_hms": "00:04:10",
+     "end_hms": "00:04:51",
+     "why": "S3:interjection(1),S3:number(2)"
+    },
+    {
+     "start_hms": "00:04:55",
+     "end_hms": "00:05:52",
+     "why": "S3:interjection(3),S3:number(1)"
+    },
+    {
+     "start_hms": "00:17:15",
+     "end_hms": "00:18:24",
+     "why": "S3:interjection(4),S3:number(2)"
+    },
+    {
+     "start_hms": "00:23:14",
+     "end_hms": "00:23:54",
+     "why": "S3:interjection(2),S3:number(1)"
+    },
+    {
+     "start_hms": "00:25:01",
+     "end_hms": "00:25:45",
+     "why": "S3:interjection(1),S3:number(3)"
+    },
+    {
+     "start_hms": "00:27:40",
+     "end_hms": "00:28:30",
+     "why": "S3:interjection(2),S3:number(1) | capped: 19 dropped"
+    }
+   ],
+   "lines": [
+    {
+     "part_line": 3,
+     "ts": "00:00:03",
+     "kind": "anchor"
+    },
+    {
+     "part_line": 5,
+     "ts": "00:00:11",
+     "kind": "anchor"
+    },
+    {
+     "part_line": 8,
+     "ts": "00:00:33",
+     "kind": "anchor"
+    },
+    {
+     "part_line": 10,
+     "ts": "00:00:54",
+     "kind": "anchor"
+    },
+    {
+     "part_line": 16,
+     "ts": "00:01:39",
+     "kind": "anchor"
+    },
+    {
+     "part_line": 19,
+     "ts": "00:02:10",
+     "kind": "anchor"
+    },
+    {
+     "part_line": 21,
+     "ts": "00:02:23",
+     "kind": "anchor"
+    },
+    {
+     "part_line": 30,
+     "ts": "00:03:11",
+     "kind": "marker"
+    },
+    {
+     "part_line": 33,
+     "ts": "00:03:37",
+     "kind": "anchor"
+    },
+    {
+     "part_line": 36,
+     "ts": "00:03:59",
+     "kind": "anchor"
+    },
+    {
+     "part_line": 37,
+     "ts": "00:04:05",
+     "kind": "anchor"
+    },
+    {
+     "part_line": 40,
+     "ts": "00:04:29",
+     "kind": "anchor"
+    },
+    {
+     "part_line": 44,
+     "ts": "00:05:06",
+     "kind": "unanchored-number"
+    },
+    {
+     "part_line": 49,
+     "ts": "00:05:37",
+     "kind": "anchor"
+    },
+    {
+     "part_line": 53,
+     "ts": "00:06:16",
+     "kind": "anchor"
+    },
+    {
+     "part_line": 56,
+     "ts": "00:06:33",
+     "kind": "anchor"
+    },
+    {
+     "part_line": 71,
+     "ts": "00:08:55",
+     "kind": "anchor"
+    },
+    {
+     "part_line": 73,
+     "ts": "00:09:20",
+     "kind": "anchor"
+    },
+    {
+     "part_line": 78,
+     "ts": "00:10:10",
+     "kind": "unanchored-number"
+    },
+    {
+     "part_line": 81,
+     "ts": "00:10:22",
+     "kind": "anchor"
+    },
+    {
+     "part_line": 95,
+     "ts": "00:12:02",
+     "kind": "anchor"
+    },
+    {
+     "part_line": 102,
+     "ts": "00:12:57",
+     "kind": "anchor"
+    },
+    {
+     "part_line": 114,
+     "ts": "00:14:14",
+     "kind": "anchor"
+    },
+    {
+     "part_line": 126,
+     "ts": "00:15:53",
+     "kind": "anchor"
+    },
+    {
+     "part_line": 138,
+     "ts": "00:17:28",
+     "kind": "anchor"
+    },
+    {
+     "part_line": 140,
+     "ts": "00:17:47",
+     "kind": "unanchored-number"
+    },
+    {
+     "part_line": 142,
+     "ts": "00:17:55",
+     "kind": "anchor"
+    },
+    {
+     "part_line": 162,
+     "ts": "00:20:33",
+     "kind": "unanchored-number"
+    },
+    {
+     "part_line": 164,
+     "ts": "00:20:39",
+     "kind": "anchor"
+    },
+    {
+     "part_line": 166,
+     "ts": "00:20:59",
+     "kind": "unanchored-number"
+    },
+    {
+     "part_line": 170,
+     "ts": "00:21:28",
+     "kind": "anchor"
+    },
+    {
+     "part_line": 181,
+     "ts": "00:23:21",
+     "kind": "unanchored-number"
+    },
+    {
+     "part_line": 183,
+     "ts": "00:23:29",
+     "kind": "anchor"
+    },
+    {
+     "part_line": 184,
+     "ts": "00:23:38",
+     "kind": "anchor"
+    },
+    {
+     "part_line": 194,
+     "ts": "00:25:12",
+     "kind": "anchor"
+    },
+    {
+     "part_line": 195,
+     "ts": "00:25:16",
+     "kind": "unanchored-number"
+    },
+    {
+     "part_line": 196,
+     "ts": "00:25:27",
+     "kind": "anchor"
+    },
+    {
+     "part_line": 207,
+     "ts": "00:26:52",
+     "kind": "anchor"
+    },
+    {
+     "part_line": 212,
+     "ts": "00:27:42",
+     "kind": "anchor"
+    },
+    {
+     "part_line": 213,
+     "ts": "00:27:55",
+     "kind": "marker"
+    },
+    {
+     "part_line": 219,
+     "ts": "00:28:38",
+     "kind": "anchor"
+    },
+    {
+     "part_line": 226,
+     "ts": "00:29:32",
+     "kind": "anchor"
+    },
+    {
+     "part_line": 236,
+     "ts": "00:30:33",
+     "kind": "anchor"
+    },
+    {
+     "part_line": 253,
+     "ts": "00:32:51",
+     "kind": "anchor"
+    },
+    {
+     "part_line": 258,
+     "ts": "00:33:17",
+     "kind": "anchor"
+    },
+    {
+     "part_line": 265,
+     "ts": "00:34:13",
+     "kind": "anchor"
+    }
+   ],
+   "signals": {
+    "anchors": 39,
+    "markers": 2,
+    "fillers": 0,
+    "numbers": 20,
+    "no_part": false
+   },
+   "lines_capped": false
+  }
+ }
+}
