@@ -1,0 +1,13 @@
+{
+ "windows": [
+  {
+   "k": 1,
+   "file": "windows/window_01.txt",
+   "start_s": 0,
+   "end_s": 1093,
+   "start_hms": "00:00:00",
+   "end_hms": "00:18:13",
+   "transcript_lines": 379
+  }
+ ]
+}

@@ -1,0 +1,458 @@
+{
+ "windows": {
+  "01": {
+   "spans": [
+    {
+     "start_hms": "00:00:00",
+     "end_hms": "00:02:31",
+     "why": "S1:video-start,S3:filler(2),S3:number(15)"
+    },
+    {
+     "start_hms": "00:02:59",
+     "end_hms": "00:04:02",
+     "why": "S3:number(4)"
+    },
+    {
+     "start_hms": "00:06:56",
+     "end_hms": "00:07:47",
+     "why": "S3:number(3)"
+    },
+    {
+     "start_hms": "00:08:40",
+     "end_hms": "00:09:20",
+     "why": "S3:filler(1)"
+    },
+    {
+     "start_hms": "00:09:28",
+     "end_hms": "00:10:01",
+     "why": "S3:number(2)"
+    },
+    {
+     "start_hms": "00:10:03",
+     "end_hms": "00:10:33",
+     "why": "S3:number(1)"
+    },
+    {
+     "start_hms": "00:11:31",
+     "end_hms": "00:12:40",
+     "why": "S3:filler(1),S3:number(1)"
+    },
+    {
+     "start_hms": "00:14:27",
+     "end_hms": "00:14:57",
+     "why": "S3:number(1) | capped: 1 dropped"
+    }
+   ],
+   "lines": [
+    {
+     "part_line": 5,
+     "ts": "00:00:10",
+     "kind": "marker"
+    },
+    {
+     "part_line": 6,
+     "ts": "00:00:13",
+     "kind": "marker"
+    },
+    {
+     "part_line": 9,
+     "ts": "00:00:24",
+     "kind": "marker"
+    },
+    {
+     "part_line": 11,
+     "ts": "00:00:31",
+     "kind": "marker"
+    },
+    {
+     "part_line": 12,
+     "ts": "00:00:34",
+     "kind": "marker"
+    },
+    {
+     "part_line": 14,
+     "ts": "00:00:43",
+     "kind": "marker"
+    },
+    {
+     "part_line": 16,
+     "ts": "00:00:54",
+     "kind": "marker"
+    },
+    {
+     "part_line": 19,
+     "ts": "00:01:01",
+     "kind": "marker"
+    },
+    {
+     "part_line": 20,
+     "ts": "00:01:08",
+     "kind": "marker"
+    },
+    {
+     "part_line": 21,
+     "ts": "00:01:11",
+     "kind": "marker"
+    },
+    {
+     "part_line": 24,
+     "ts": "00:01:20",
+     "kind": "marker"
+    },
+    {
+     "part_line": 26,
+     "ts": "00:01:30",
+     "kind": "marker"
+    },
+    {
+     "part_line": 29,
+     "ts": "00:01:41",
+     "kind": "marker"
+    },
+    {
+     "part_line": 34,
+     "ts": "00:02:06",
+     "kind": "marker"
+    },
+    {
+     "part_line": 35,
+     "ts": "00:02:12",
+     "kind": "marker"
+    },
+    {
+     "part_line": 37,
+     "ts": "00:02:23",
+     "kind": "marker"
+    },
+    {
+     "part_line": 43,
+     "ts": "00:02:46",
+     "kind": "marker"
+    },
+    {
+     "part_line": 45,
+     "ts": "00:02:58",
+     "kind": "marker"
+    },
+    {
+     "part_line": 46,
+     "ts": "00:03:01",
+     "kind": "marker"
+    },
+    {
+     "part_line": 52,
+     "ts": "00:03:26",
+     "kind": "marker"
+    },
+    {
+     "part_line": 53,
+     "ts": "00:03:28",
+     "kind": "marker"
+    },
+    {
+     "part_line": 56,
+     "ts": "00:03:43",
+     "kind": "marker"
+    },
+    {
+     "part_line": 59,
+     "ts": "00:04:04",
+     "kind": "marker"
+    },
+    {
+     "part_line": 62,
+     "ts": "00:04:13",
+     "kind": "marker"
+    },
+    {
+     "part_line": 63,
+     "ts": "00:04:23",
+     "kind": "marker"
+    },
+    {
+     "part_line": 67,
+     "ts": "00:04:47",
+     "kind": "marker"
+    },
+    {
+     "part_line": 69,
+     "ts": "00:04:58",
+     "kind": "marker"
+    },
+    {
+     "part_line": 70,
+     "ts": "00:05:03",
+     "kind": "marker"
+    },
+    {
+     "part_line": 71,
+     "ts": "00:05:09",
+     "kind": "marker"
+    },
+    {
+     "part_line": 73,
+     "ts": "00:05:21",
+     "kind": "marker"
+    },
+    {
+     "part_line": 76,
+     "ts": "00:05:37",
+     "kind": "marker"
+    },
+    {
+     "part_line": 85,
+     "ts": "00:06:25",
+     "kind": "marker"
+    },
+    {
+     "part_line": 86,
+     "ts": "00:06:30",
+     "kind": "marker"
+    },
+    {
+     "part_line": 87,
+     "ts": "00:06:37",
+     "kind": "marker"
+    },
+    {
+     "part_line": 93,
+     "ts": "00:06:56",
+     "kind": "marker"
+    },
+    {
+     "part_line": 94,
+     "ts": "00:06:59",
+     "kind": "marker"
+    },
+    {
+     "part_line": 95,
+     "ts": "00:07:11",
+     "kind": "marker"
+    },
+    {
+     "part_line": 98,
+     "ts": "00:07:29",
+     "kind": "marker"
+    },
+    {
+     "part_line": 99,
+     "ts": "00:07:38",
+     "kind": "marker"
+    },
+    {
+     "part_line": 103,
+     "ts": "00:07:55",
+     "kind": "marker"
+    },
+    {
+     "part_line": 110,
+     "ts": "00:08:27",
+     "kind": "marker"
+    },
+    {
+     "part_line": 111,
+     "ts": "00:08:34",
+     "kind": "marker"
+    },
+    {
+     "part_line": 113,
+     "ts": "00:08:53",
+     "kind": "marker"
+    },
+    {
+     "part_line": 114,
+     "ts": "00:09:00",
+     "kind": "marker"
+    },
+    {
+     "part_line": 124,
+     "ts": "00:09:40",
+     "kind": "marker"
+    },
+    {
+     "part_line": 125,
+     "ts": "00:09:43",
+     "kind": "marker"
+    },
+    {
+     "part_line": 129,
+     "ts": "00:10:08",
+     "kind": "marker"
+    },
+    {
+     "part_line": 132,
+     "ts": "00:10:21",
+     "kind": "marker"
+    },
+    {
+     "part_line": 139,
+     "ts": "00:10:53",
+     "kind": "marker"
+    },
+    {
+     "part_line": 140,
+     "ts": "00:10:56",
+     "kind": "marker"
+    },
+    {
+     "part_line": 141,
+     "ts": "00:11:05",
+     "kind": "marker"
+    },
+    {
+     "part_line": 143,
+     "ts": "00:11:11",
+     "kind": "marker"
+    },
+    {
+     "part_line": 144,
+     "ts": "00:11:17",
+     "kind": "marker"
+    },
+    {
+     "part_line": 146,
+     "ts": "00:11:26",
+     "kind": "marker"
+    },
+    {
+     "part_line": 147,
+     "ts": "00:11:28",
+     "kind": "marker"
+    },
+    {
+     "part_line": 152,
+     "ts": "00:11:51",
+     "kind": "marker"
+    },
+    {
+     "part_line": 156,
+     "ts": "00:12:19",
+     "kind": "marker"
+    },
+    {
+     "part_line": 158,
+     "ts": "00:12:32",
+     "kind": "marker"
+    },
+    {
+     "part_line": 161,
+     "ts": "00:12:47",
+     "kind": "marker"
+    },
+    {
+     "part_line": 162,
+     "ts": "00:12:50",
+     "kind": "marker"
+    },
+    {
+     "part_line": 163,
+     "ts": "00:12:55",
+     "kind": "marker"
+    },
+    {
+     "part_line": 167,
+     "ts": "00:13:12",
+     "kind": "marker"
+    },
+    {
+     "part_line": 171,
+     "ts": "00:13:31",
+     "kind": "marker"
+    },
+    {
+     "part_line": 173,
+     "ts": "00:13:47",
+     "kind": "marker"
+    },
+    {
+     "part_line": 174,
+     "ts": "00:13:52",
+     "kind": "marker"
+    },
+    {
+     "part_line": 178,
+     "ts": "00:14:06",
+     "kind": "marker"
+    },
+    {
+     "part_line": 179,
+     "ts": "00:14:10",
+     "kind": "marker"
+    },
+    {
+     "part_line": 182,
+     "ts": "00:14:27",
+     "kind": "marker"
+    },
+    {
+     "part_line": 184,
+     "ts": "00:14:37",
+     "kind": "marker"
+    },
+    {
+     "part_line": 185,
+     "ts": "00:14:40",
+     "kind": "marker"
+    },
+    {
+     "part_line": 186,
+     "ts": "00:14:44",
+     "kind": "marker"
+    },
+    {
+     "part_line": 188,
+     "ts": "00:14:53",
+     "kind": "marker"
+    },
+    {
+     "part_line": 189,
+     "ts": "00:15:00",
+     "kind": "marker"
+    },
+    {
+     "part_line": 190,
+     "ts": "00:15:09",
+     "kind": "marker"
+    },
+    {
+     "part_line": 193,
+     "ts": "00:15:22",
+     "kind": "marker"
+    },
+    {
+     "part_line": 196,
+     "ts": "00:15:41",
+     "kind": "marker"
+    },
+    {
+     "part_line": 198,
+     "ts": "00:15:53",
+     "kind": "marker"
+    },
+    {
+     "part_line": 199,
+     "ts": "00:16:00",
+     "kind": "marker"
+    },
+    {
+     "part_line": 200,
+     "ts": "00:16:05",
+     "kind": "marker"
+    },
+    {
+     "part_line": 203,
+     "ts": "00:16:29",
+     "kind": "marker"
+    }
+   ],
+   "signals": {
+    "anchors": 145,
+    "markers": 87,
+    "fillers": 4,
+    "numbers": 27,
+    "no_part": false
+   },
+   "lines_capped": true
+  }
+ }
+}
